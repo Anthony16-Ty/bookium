@@ -4,6 +4,7 @@ import { updateUserFromFetch, updateBookObjs } from '../Redux/actions.js'
 
 class BookCard extends Component {
 
+  
   addBookToList = (e, bookObj) => {
     let options = {
       method: 'POST',
