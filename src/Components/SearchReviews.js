@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { changeSearchTerm } from '../Redux/actions.js'
 
+
 class SearchReviews extends Component {
 
   state = {
