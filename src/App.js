@@ -16,6 +16,8 @@ import { connect } from 'react-redux'
 import { setAndFetchUser } from './Redux/actions.js'
 import EventPage from './Components/EventPage.js'
 
+
+
 class App extends Component {
 
   componentDidMount () {
